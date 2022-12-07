@@ -8,13 +8,13 @@ main {
 .card {
   width: 60%;
   margin-top: 6.4rem;
-  background-color: #fff;
+  background-color: var(--default-color);
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.38);
   display: flex;
 }
 
 .card-image {
-  background-color: #eff7fc;
+  background-color: var(--light-gray);
   padding: 3.2rem;
   width: 50%;
   position: relative;
@@ -45,7 +45,7 @@ main {
 }
 
 .card-details p:nth-child(2) {
-  color: #444;
+  color: var(--dark-gray);
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: bold;
@@ -72,8 +72,8 @@ main {
   border: none;
   outline: none;
   border-radius: 4.8rem;
-  background-color: #444;
-  color: #fff;
+  background-color: var(--dark-gray);
+  color: var(--default-color);
   width: 11rem;
   height: 4.8rem;
   font-size: 1.6rem;
@@ -84,6 +84,6 @@ main {
 
 .price-container button:hover {
   filter: brightness(0.6);
-  background-color: #fff;
-  color: #444;
+  background-color: var(--default-color);
+  color: var(--dark-gray);
 }

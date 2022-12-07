@@ -2,8 +2,8 @@
 
 .dark,
 .dark header {
-  background-color: #263238;
-  color: #fff;
+  background-color: var(--dark-bckg);
+  color: var(--default-color);
 }
 
 i {
@@ -28,18 +28,18 @@ i:active {
 }
 
 .dark .card {
-  background-color: #37474f;
+  background-color: var(--dark-card-bckg);
 }
 
 .dark .card-image {
-  background-color: #273035;
+  background-color: var(--dark-img-bckg);
 }
 
 .dark .card-details p:nth-child(2) {
-  color: #67b4f3;
+  color: var(--dark-card);
 }
 
 .dark .card-details button {
-  background-color: #67b4f3;
-  color: #171717;
+  background-color: var(--dark-card);
+  color: var(--dark-btn-txt);
 }
