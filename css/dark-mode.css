@@ -5,3 +5,16 @@
   background-color: #263238;
   color: #fff;
 }
+
+i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+i:active {
+  transform: scale(1.05);
+}
+
+#icon-moon {
+  display: none;
+}
